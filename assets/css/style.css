@@ -33,20 +33,24 @@ header div {
     font-size: 20px;
 }
 
+/* This element targets the li elements within the header ancestor to have proper margin and display */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This element targets all a selectors to have a white color and no text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This element targets all p selectors to have 16px font */
 p {
     font-size: 16px;
 }
 
+/* This element targets the main photo, describes size/placement, and links the image to the selector*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,22 +60,26 @@ p {
     background-position: center;
 }
 
+/* This class selector makes images float left with a 25px margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This class selector makes images float right with a 25px margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* This class selector targets the main blocks and specifies the block width, block styling, and margins */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This element targets the "benefits" class selector to add spcaing/sizing values to all three segments*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -117,11 +125,13 @@ p {
     max-height: 200px;
 }
 
-.social-media-marketing h2 {
+/* Consolidated individual segments into the content class selector that targets each h2 margin and font size */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* This element dictates the sizing, font, and spacing of the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -129,6 +139,7 @@ p {
     text-align: center;
 }
 
+/* This element targets the h2 withing the footer and makes it slightly bigger */
 .footer h2 {
     font-size: 20px;
 }
